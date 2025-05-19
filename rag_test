@@ -8,8 +8,7 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-# MongoDB Setup
-MONGO_URI = "mongodb+srv://divyajeganathan:XV9ZRwiupdm1p00K@cluster0.1koquxi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
 client = MongoClient(MONGO_URI)
 db = client['pdf_db']
 collection = db['pdf_documents']

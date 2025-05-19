@@ -14,7 +14,7 @@ db = client['pdf_db']
 collection = db['pdf_documents']
 
 # Gemini API Setup
-gemini_api_key = "AIzaSyBmPISv6sT1EyNEmb0gkux0j07yxG9w8EgY"
+gemini_api_key = GEMINI_API_KEY
 gemini_api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={gemini_api_key}"
 
 # --- Text Processing Functions ---

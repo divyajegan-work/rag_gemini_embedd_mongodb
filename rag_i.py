@@ -82,7 +82,7 @@ def ask_question():
         "generationConfig": {"temperature": 0.7}
     }
     headers = {"Content-Type": "application/json"}
-    response = requests.post(GEN_MODEL_URL + "?key=AIzaSyBmPISv6sT1EyNEmb0gkux0j07yxG9w8Eg", json=prompt, headers=headers)
+    response = requests.post(GEN_MODEL_URL + "?key=GEMINI_API_KEY", json=prompt, headers=headers)
 
     if response.status_code == 200:
         try:

@@ -112,7 +112,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-"""
-AIzaSyB3QAHVVdgmqWNT0gRceCWhlMfu7xI3AAY
-"""
